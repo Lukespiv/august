@@ -1,3 +1,7 @@
+def celsius_to_fahrenheit(celsius):
+    fahrenheit = celsius * 9/5 + 32
+    return fahrenheit
+
 celsius = 25
-fahrenhiet = celsius * 9/5 + 32
-print(f"{celsius}celsius is equal to fahrenhiet{fahrenhiet}")
+fahrenheit = celsius_to_fahrenheit(celsius)
+print(f"{celsius}celsius to fahrenhiet is {fahrenheit}")
